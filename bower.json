@@ -1,0 +1,27 @@
+{
+  "name": "sandbox",
+  "description": "Demos and examples",
+  "main": "index.js",
+  "authors": [
+    "Jan van Rossum"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "asdfasdfasfd"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.7"
+  }
+}
