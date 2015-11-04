@@ -1,1 +1,1 @@
-Demos and examples for Angular Boot Camp
+Angular demos and examples

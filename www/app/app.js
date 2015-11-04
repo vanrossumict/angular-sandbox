@@ -1,5 +1,12 @@
-angular.module('sandbox', []);
+angular.module('sandbox', ['ngRoute'])
 
-angular.module('sandbox').controller('MainController', function($scope) {
-  $scope.stuff = 'lasdkfjlkasdjfklasf';
-});
+  .controller('MainController', function($scope) {
+    $scope.stuff = 'lasdkfjlkasdjfklasf';
+  })
+
+  .config(function($routeProvider) {
+    $routeProvider.when('/', {
+      template: '<h1>This is the homepage</h1>'
+    })
+  })
+;
